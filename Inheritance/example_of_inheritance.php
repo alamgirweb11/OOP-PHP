@@ -37,8 +37,7 @@ class Role extends Member
 		}
 		if ($this->role=="super_admin") {
 			echo "You are logged in as a super_admin";
-		}
-		else{
+		}else{
 			   echo "Invalid username/password";
 		}
 	}

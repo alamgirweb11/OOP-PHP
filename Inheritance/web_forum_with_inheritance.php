@@ -9,7 +9,7 @@ class Member{  // parent class
 	     }
 
 	     public function logout(){
-	     	   $this->loggedIn=fale;
+	     	   $this->loggedIn=false;
 	     }
 
 	     public function isloggedIn(){
